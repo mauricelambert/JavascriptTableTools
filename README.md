@@ -10,7 +10,7 @@ This repository implements HTML tables tools, too short table by values, to sear
 
 ## Installation
 
-Download the `ShortTable.js` file on your Web Server and call it.
+Download the `ShortTable.js` and/or the `SearchTable.js` file on your Web Server and call it.
 
 ## Usages
 
@@ -18,6 +18,11 @@ Download the `ShortTable.js` file on your Web Server and call it.
 <script type="text/javascript" src="ShortTable.js"></script>
 <script type="text/javascript">
     ShortTable.prototype.add_listeners();
+</script>
+
+<script type="text/javascript" src="SearchTable.js"></script>
+<script type="text/javascript">
+    let search = new TableSearch(document.getElementById('my_table'));
 </script>
 ```
 
